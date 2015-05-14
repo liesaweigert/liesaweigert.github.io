@@ -1,0 +1,110 @@
+@font-face{
+	font-family: 'againts';
+	src: url('againts_fonts/againts.ttf');
+}
+
+*{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 1.05em;
+}
+
+html, body {
+	height: 100%;
+}
+
+h1 {
+	font-family: 'againts';
+	font-size: 15.0vw;
+}
+
+#name {
+  text-align: right;
+  margin-right: 75px;
+  margin-top: 120px;
+}
+
+.category {
+  text-align: center;
+  color: white;
+}
+ 
+/* --the parallax background --*/
+.section {
+	position: relative;
+	min-height: 100%;
+	background-attachment: fixed;
+	background-size: contain;
+
+}
+ 
+#education {
+  background-image: url("education.jpg");
+}
+
+#employment {
+  background-image: url("employment.jpg");
+}
+
+#skills {
+  background-image: url("skills.jpg");
+}
+
+/*-- tables -- */ 
+
+.row {
+	border-top: 1px solid black;
+}
+
+.skill {
+	font-weight: 700;
+}
+
+.institution {
+	font-weight: 700;
+}
+.container{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%; 
+    margin-top: 150px;
+    max-width: 1200px;      
+}
+
+/*-- our clearfix hack -- */ 
+
+.row:before, 
+.row:after {      
+	content:"";        
+	display: table ;      
+	clear: both;
+}
+
+[class*='col-'] {
+	float: left; 
+	min-height: 1px; 
+	width: 20%; 
+    /*-- our gutter -- */
+	padding-top: 2px;
+	padding-bottom: 15px; 
+	padding-left: 5px;
+   }
+   .col-1{ width: 16.6%; }
+   .col-2{ width: 33.3%; }
+   .col-3{ width: 50%; }
+   .col-4{ width: 66.6%; }
+   .col-5{ width: 83.3%;}
+   .col-6{ width: 100%; }
+}
+
+
+@media all and (max-width:800px){
+    .row .col-5 ~ .col-1{
+       width: 100%; 
+   	}
+   	.container {
+   		width: 100%;
+   		margin-left: 0;
+   		margin-right: 0;
+   	}
+}
