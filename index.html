@@ -5,30 +5,52 @@
 		<meta charset= utf-8>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<script src="parallax.js/parallax.js"></script>
+		<script src="stellar.js-master/jquery.stellar.js"></script>
   		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   		<script src="liesa.js"></script>
 
   		<link href='http://fonts.googleapis.com/css?family=Roboto:500,100,300' rel='stylesheet' type='text/css'>
   		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="liesa.css">
+		<link rel="stylesheet" type="text/css" href="main.css">
 
 	</head>	
 
 	<body>
 		<div class="section">
-			<div id="name"><h1>Liesa Weigert</h1></div>
-			<div id="information">
-				<p>Born: 26.02.1992</p>
-				<p>Nationality: German</p>
-				<p>Email: liesa.weigert@tum.de</p>
+			<div class="container">
+				<div class="row">
+					<div id="pic" class="col-sm-4"></div>
+					<div id="name" class="col-sm-8">
+						<h1>Liesa Weigert</h1>
+					</div>
+					<div id="information">
+						<p>Born: 26.02.1992</p>
+						<p>Nationality: German</p>
+						<p>Email: liesa.weigert@tum.de</p>
+					</div>
+				</div>
 			</div>
-			<div id="examples">
-				<p><a href="">Check out the source code </a>or<a href="http://zuckerzeit.herokuapp.com"> look at some other projects</a></p>
+
+			<div id="navbar" class="scrollable">
+				<div class="row">
+					<div class="col-sm-2 col-sm-offset-2">
+						<p>education</p>
+					</div>
+					<div class="col-sm-2">
+						<p>employment</p>
+					</div>						
+					<div class="col-sm-2">
+						<p>skills</p>
+					</div>
+					<div class="col-sm-2">
+						<p>projects</p>
+					</div>
+				</div>
 			</div>
 		</div>
-		<div class="section" id="education" data-parallax="scroll" data-image-src="education.jpg">
+
+		<div class="section" id="education" data-stellar-background-ratio="0.5">
 			<h1 class="category">Education</h1>
 		</div>
 		<div class="section">
@@ -71,7 +93,7 @@
 			</div>
 		</div>
 
-		<div class="section" id="employment" data-parallax="scroll" data-image-src="employment.jpg">
+		<div class="section" id="employment" data-stellar-background-ratio="0.5">
 			<h1 class="category">Employment and Internships</h1>
 		</div>
 		<div class="section">
@@ -97,7 +119,7 @@
 			</div>
 		</div>
 	
-		<div class="section" id="skills" data-parallax="scroll" data-image-src="skills.jpg">
+		<div class="section" id="skills" data-stellar-background-ratio="0.5">
 			<h1 class="category">Skills</h1>
 		</div>
 		<div class="section">

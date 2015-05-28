@@ -1,0 +1,67 @@
+font-face
+	font-family: 'againts'
+	src: url('againts_fonts/againts.ttf')
+
+*
+	font-family: 'Roboto', sans-serif
+	font-weight: 300
+	font-size: 1.05em
+
+html, body
+	height: 100%
+
+$darkgrey: #AAA
+$verydarkgrey: #444
+
+.container:first-of-type
+	margin-top: 100px
+
+#pic
+	background-color: $darkgrey
+	border-radius: 150px
+	height: 400px
+
+#name 
+	h1
+		padding-left: 20px
+		font-family: 'againts'
+		font-size: 9em
+
+#information
+	p 
+		display: inline
+		padding-left: 30px
+		
+.category
+	font-family: 'againts'
+	font-size: 200px
+	padding: 125px 0px
+	text-align: center
+	color: white
+
+=setBackground($imgUrl)
+	background-image: url($imgUrl)
+	background-size: cover
+
+#education
+	+setBackground("education.jpg")
+
+#employment
+	+setBackground("employment.jpg")
+
+#skills
+	+setBackground("skills.jpg")
+
+#navbar
+	background-color: $verydarkgrey
+	margin-top: 50px
+	padding-top: 10px
+	color: white
+	*
+		text-align: center
+	&.fixed
+		position: fixed
+		width: 100%
+		top: 0px
+		left: 0px
+		margin-top: 0px
