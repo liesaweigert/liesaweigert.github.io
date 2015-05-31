@@ -1,6 +1,6 @@
 @media only screen 
-	and (max-device-width: 3000)
-	and (max-width: 3000){
+	and (min-device-width: 1200)
+	and (min-width: 1200){
 	#name {
 		font-size: 125px;
 	}
