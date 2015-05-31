@@ -1,6 +1,6 @@
 font-face {
   font-family: "againts";
-  src: url("againts_fonts/againts.ttf"); }
+  src: url("fonts/againts_fonts/againts.ttf"); }
 
 * {
   font-family: "Roboto", sans-serif;
@@ -18,14 +18,21 @@ html, body {
   border-radius: 150px;
   height: 400px; }
 
-#name h1 {
+#name {
   padding-left: 20px;
   font-family: "againts";
-  font-size: 9em; }
+  font-size: 250px;
+  text-align: center; }
+  @media all and (max-with: 800px) {
+    #name {
+      font-size: 125px; } }
 
-#information p {
-  display: inline;
-  padding-left: 30px; }
+#information {
+  margin-left: auto;
+  margin-right: auto; }
+  #information p {
+    display: inline;
+    padding-left: 30px; }
 
 .category {
   font-family: "againts";
@@ -35,15 +42,19 @@ html, body {
   color: white; }
 
 #education {
-  background-image: url("education.jpg");
+  background-image: url("../images/education.jpg");
   background-size: cover; }
 
 #employment {
-  background-image: url("employment.jpg");
+  background-image: url("../images/employment.jpg");
   background-size: cover; }
 
 #skills {
-  background-image: url("skills.jpg");
+  background-image: url("../images/skills.jpg");
+  background-size: cover; }
+
+#projects {
+  background-image: url("../images/projects.jpg");
   background-size: cover; }
 
 #navbar {

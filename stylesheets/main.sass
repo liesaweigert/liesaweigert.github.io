@@ -1,6 +1,6 @@
 font-face
 	font-family: 'againts'
-	src: url('againts_fonts/againts.ttf')
+	src: url('fonts/againts_fonts/againts.ttf')
 
 *
 	font-family: 'Roboto', sans-serif
@@ -22,12 +22,16 @@ $verydarkgrey: #444
 	height: 400px
 
 #name 
-	h1
-		padding-left: 20px
-		font-family: 'againts'
-		font-size: 9em
+	padding-left: 20px
+	font-family: 'againts'
+	font-size: 250px
+	text-align: center
+	@media all and (max-with: 800px)
+		font-size: 125px
 
 #information
+	margin-left: auto
+	margin-right: auto
 	p 
 		display: inline
 		padding-left: 30px
@@ -40,7 +44,7 @@ $verydarkgrey: #444
 	color: white
 
 =setBackground($imgUrl)
-	background-image: url($imgUrl)
+	background-image: url("../images/" + $imgUrl)
 	background-size: cover
 
 #education
@@ -51,6 +55,9 @@ $verydarkgrey: #444
 
 #skills
 	+setBackground("skills.jpg")
+
+#projects
+	+setBackground("projects.jpg")
 
 #navbar
 	background-color: $verydarkgrey

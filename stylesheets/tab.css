@@ -1,0 +1,11 @@
+.tab {
+  margin-bottom: 100px; }
+  .tab .skill {
+    font-weight: 700; }
+  .tab .institution {
+    font-weight: 700; }
+  .tab .row {
+    border-top: 1px solid black;
+    margin-bottom: 10px; }
+
+/*# sourceMappingURL=tab.css.map */

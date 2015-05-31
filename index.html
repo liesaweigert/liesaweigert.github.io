@@ -5,88 +5,99 @@
 		<meta charset= utf-8>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<script src="stellar.js-master/jquery.stellar.js"></script>
+		<script src="javascript/stellar.js-master/jquery.stellar.js"></script>
   		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-  		<script src="liesa.js"></script>
+  		<script type="text/javascript" src="javascript/liesa.js"></script>
 
   		<link href='http://fonts.googleapis.com/css?family=Roboto:500,100,300' rel='stylesheet' type='text/css'>
   		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/navbar.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/tab.css">
 
 	</head>	
 
 	<body>
 		<div class="section">
 			<div class="container">
-				<div class="row">
-					<div id="pic" class="col-sm-4"></div>
-					<div id="name" class="col-sm-8">
-						<h1>Liesa Weigert</h1>
-					</div>
-					<div id="information">
-						<p>Born: 26.02.1992</p>
-						<p>Nationality: German</p>
-						<p>Email: liesa.weigert@tum.de</p>
-					</div>
+				<h1 id="name">Liesa Weigert</h1>
+				<div id="information">
+					<p>Born: 26.02.1992</p>
+					<p>Nationality: German</p>
+					<p>Email: <a href="mailto:liesa.weigert@tum.de">liesa.weigert@tum.de</a></p>
 				</div>
 			</div>
 
-			<div id="navbar" class="scrollable">
-				<div class="row">
-					<div class="col-sm-2 col-sm-offset-2">
-						<p>education</p>
-					</div>
-					<div class="col-sm-2">
-						<p>employment</p>
-					</div>						
-					<div class="col-sm-2">
-						<p>skills</p>
-					</div>
-					<div class="col-sm-2">
-						<p>projects</p>
-					</div>
-				</div>
-			</div>
-		</div>
+			<div class="navbar">
+				<nav>
+					<ul>
+						<li>
+							<a href="#education">
+								<i class="fa fa-graduation-cap"></i><!-- icon -->
+								<b>education</b>
+							</a>
+						</li>
+						<li>
+							<a href="#employment">
+								<i class="fa fa-gears"></i><!-- icon -->
+								<b>employment</b>
+							</a>
+						</li>
+						<li>
+							<a href="#skills">
+								<i class="fa fa-diamond"></i><!-- icon -->
+								<b>skills</b>
+							</a>
+						</li>
+						<li>
+							<a href="#projects">
+								<i class="fa fa-paper-plane"></i><!-- icon -->
+								<b>projects</b>
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div><!-- end of navbar -->
+		</div><!-- end of section -->
 
 		<div class="section" id="education" data-stellar-background-ratio="0.5">
 			<h1 class="category">Education</h1>
 		</div>
 		<div class="section">
-			<div class="container">
+			<div class="container tab">
 			    <div class="row">
-			        <div class="col-2">
+			        <div class="col-xs-4">
 			        	<p class="date">10/2011 – present</p>
 			        </div> 
-			        <div class="col-4">
+			        <div class="col-xs-8">
 			        	<p class="institution">Technische Universität München, Munich</p>
 						<p class="info">Engineering Science</p>
 					</div>
 			    </div> 
 			    <div class="row">
-			        <div class="col-2">
+			        <div class="col-xs-4">
 			        	<p class="date">09/2014 – 02/2015</p>
 			        </div> 
-			        <div class="col-4">
+			        <div class="col-xs-8">
 			        	<p class="institution">Seoul National University, Seoul</p>
 						<p class="info">Computer Science</p>
 					</div>
 			    </div> 
 			    <div class="row">
-			        <div class="col-2">
+			        <div class="col-xs-4">
 			        	<p class="date">09/2005 – 05/2011</p>
 			        </div> 
-			        <div class="col-4">
+			        <div class="col-xs-8">
 			        	<p class="institution">Deutschhaus Gymnasium, Würzburg</p>
 						<p class="info">Final Grade: 1,4</p>
 					</div>
 			    </div> 
 			     <div class="row">
-			        <div class="col-2">
+			        <div class="col-xs-4">
 			        	<p class="date">09/2003 – 07/2005</p>
 			        </div> 
-			        <div class="col-4">
+			        <div class="col-xs-8">
 			        	<p class="institution">Feodor-Lynen Gymnasium, Planegg</p>
 			        </div>
 			    </div> 
@@ -97,20 +108,20 @@
 			<h1 class="category">Employment and Internships</h1>
 		</div>
 		<div class="section">
-			<div class="container">
+			<div class="container tab">
 			    <div class="row">
-			        <div class="col-2">
+			        <div class="col-xs-4">
 			        	<p class="date">12/2013 – 07/2014</p>
 			        </div> 
-			        <div class="col-4">
+			        <div class="col-xs-8">
 			        	<p class="institution">Siemens AG</p>
 						<p class="info">Working Student in the Infrastructure and Cities Sector</p></div>
 			    </div> 
 			    <div class="row">
-			        <div class="col-2">
+			        <div class="col-xs-4">
 			        	<p class="date">09/2012 – 03/2013</p>
 			        </div> 
-			        <div class="col-4">
+			        <div class="col-xs-8">
 			        	<p class="institution">Chair of Computational Modelling and Simulation, TU München</p>
 						<p class="info">Research Internship</p>
 						<p class="info">Conduct and Evaluation of an experiment to validate implemented navigation algorithms to simulate pedestrians</p>
@@ -120,41 +131,41 @@
 		</div>
 	
 		<div class="section" id="skills" data-stellar-background-ratio="0.5">
-			<h1 class="category">Skills</h1>
+			<h1 class="category">Skillz</h1>
 		</div>
 		<div class="section">
-			<div class="container">
+			<div class="container tab">
 			    <div class="row">
-			        <div class="col-2">
+			        <div class="col-xs-4">
 			        	<p class="skill">Languages</p>
 			        </div> 
-			        <div class="col-4">
+			        <div class="col-xs-8">
 			        	<p class="info">German – Mother Language</p>
 						<p class="info">English – C2</p>
 						<p class="info">French – B1</p>
 					</div>
 			    </div> 
 			    <div class="row">
-			        <div class="col-2">
+			        <div class="col-xs-4">
 			        	<p class="skill">Programming Languages</p>
 			        </div> 
-			        <div class="col-4">
-						<p class="info">Java, C++, Coq, HTML, CSS, Ruby</p>
+			        <div class="col-xs-8">
+						<p class="info">Java, C++, Coq, HTML, CSS, Ruby, Rails</p>
 					</div>
 			    </div> 
 			    <div class="row">
-			        <div class="col-2">
+			        <div class="col-xs-4">
 			        	<p class="skill">CAD Software</p>
 			        </div> 
-			        <div class="col-4">
+			        <div class="col-xs-8">
 						<p class="info">Catia, Autodesk Inventor, Rhinoceros</p>
 					</div>
 			    </div> 
 			    <div class="row">
-			        <div class="col-2">
+			        <div class="col-xs-4">
 			        	<p class="skill">Other</p>
 			        </div> 
-			        <div class="col-4">
+			        <div class="col-xs-8">
 						<p class="info">Adobe InDesign</p>
 						<p class="info">Adobe Photoshop (Basic Knowledge)</p>
 						<p class="info">SQL, Matlab</p>
@@ -162,6 +173,29 @@
 			    </div> 			    
 			</div>
 		</div>
+		<div class="section" id="projects" data-stellar-background-ratio="0.5">
+			<h1 class="category">Projects</h1>
 		</div>
+		<div class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 project">
+						<a href="zuckerzeit.me">
+							<i class="fa fa-heart-o"></i>
+							<b>zuckerzeit.me</b>
+							<p>A rails blog I designed as a favor as my first Ruby on Rails Project with User Authentification.</p>
+						</a>
+					</div>
+					<div class="col-md-6 project">
+						<a href="https://github.com/liesaweigert/liesaweigert.github.io">
+							<i class="fa fa-github"></i>
+							<b>liesa.me</b>
+							<p>The source code for this website.</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">Made with love and a picture from <a href="https://www.flickr.com/photos/jainbasil/">Jean Basil Aliyas</div>
 	</body>
 </html> 
