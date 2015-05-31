@@ -11,27 +11,24 @@ html, body
 	height: 100%
 
 $darkgrey: #AAA
-$verydarkgrey: #444
+$default: #444
+
 
 .container:first-of-type
 	margin-top: 100px
-
-#pic
-	background-color: $darkgrey
-	border-radius: 150px
-	height: 400px
 
 #name 
 	padding-left: 20px
 	font-family: 'againts'
 	font-size: 250px
 	text-align: center
-	@media all and (max-with: 800px)
-		font-size: 125px
 
 #information
-	margin-left: auto
-	margin-right: auto
+	a
+		color: $default
+		&:hover
+			color: $darkgrey
+	text-align: center
 	p 
 		display: inline
 		padding-left: 30px
@@ -58,17 +55,3 @@ $verydarkgrey: #444
 
 #projects
 	+setBackground("projects.jpg")
-
-#navbar
-	background-color: $verydarkgrey
-	margin-top: 50px
-	padding-top: 10px
-	color: white
-	*
-		text-align: center
-	&.fixed
-		position: fixed
-		width: 100%
-		top: 0px
-		left: 0px
-		margin-top: 0px

@@ -1,0 +1,13 @@
+@media only screen 
+	and (max-device-width: 3000)
+	and (max-width: 3000){
+	#name {
+		font-size: 125px;
+	}
+	.category {
+		font-size: 100px;
+	}
+	.navbar .navchoice {
+		font-size: 0.5em;
+	}
+}

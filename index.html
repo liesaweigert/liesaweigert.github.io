@@ -3,7 +3,7 @@
 	<head>
 		<title>liesa weigert</title>
 		<meta charset= utf-8>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="javascript/stellar.js-master/jquery.stellar.js"></script>
   		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
@@ -15,6 +15,8 @@
 		<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 		<link rel="stylesheet" type="text/css" href="stylesheets/navbar.css">
 		<link rel="stylesheet" type="text/css" href="stylesheets/tab.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/projects.css">		
+		<link rel="stylesheet" type="text/css" href="stylesheets/handheld.css">
 
 	</head>	
 
@@ -31,32 +33,32 @@
 
 			<div class="navbar">
 				<nav>
-					<ul>
-						<li>
+					<div class="row">
+						<div class="col-xs-1 col-xs-offset-4 navchoice">
 							<a href="#education">
-								<i class="fa fa-graduation-cap"></i><!-- icon -->
-								<b>education</b>
+								<i class="fa fa-graduation-cap fa-3x"></i><!-- icon -->
+								<br>education
 							</a>
-						</li>
-						<li>
+						</div>
+						<div class="col-xs-1 navchoice">
 							<a href="#employment">
-								<i class="fa fa-gears"></i><!-- icon -->
-								<b>employment</b>
+								<i class="fa fa-gears fa-3x"></i><!-- icon -->
+								<br>employment
 							</a>
-						</li>
-						<li>
+						</div>
+						<div class="col-xs-1 navchoice">
 							<a href="#skills">
-								<i class="fa fa-diamond"></i><!-- icon -->
-								<b>skills</b>
+								<i class="fa fa-diamond fa-3x"></i><!-- icon -->
+								<br>skills
 							</a>
-						</li>
-						<li>
+						</div>
+						<div class="col-xs-1 navchoice">
 							<a href="#projects">
-								<i class="fa fa-paper-plane"></i><!-- icon -->
-								<b>projects</b>
+								<i class="fa fa-send-o fa-3x"></i><!-- icon -->
+								<br>projects
 							</a>
-						</li>
-					</ul>
+						</div>
+					</div>
 				</nav>
 			</div><!-- end of navbar -->
 		</div><!-- end of section -->
@@ -180,21 +182,37 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 project">
-						<a href="zuckerzeit.me">
-							<i class="fa fa-heart-o"></i>
-							<b>zuckerzeit.me</b>
-							<p>A rails blog I designed as a favor as my first Ruby on Rails Project with User Authentification.</p>
-						</a>
+						<div class="jumbotron">
+							<a href="https://zuckerzeit.me">
+								<div class="row">
+									<div class="col-xs-2">
+										<i class="fa fa-heart-o fa-3x"></i>
+									</div>
+									<div class="col-xs-10">
+										<b>zuckerzeit.me</b>
+										<p>A rails blog I designed as a favor as my first Ruby on Rails Project with User Authentification.</p>
+									</div>
+								</div>
+							</a>
+						</div><!--end of jumbotron-->
 					</div>
 					<div class="col-md-6 project">
-						<a href="https://github.com/liesaweigert/liesaweigert.github.io">
-							<i class="fa fa-github"></i>
-							<b>liesa.me</b>
-							<p>The source code for this website.</p>
-						</a>
+						<div class="jumbotron">
+							<a href="https://github.com/liesaweigert/liesaweigert.github.io">
+								<div class="row">
+									<div class="col-xs-2">
+										<i class="fa fa-github fa-3x"></i>
+									</div>
+									<div class="col-xs-8">
+							   			<b>liesa.me</b>
+							   			<p>The source code for this website.</p>
+									</div>
+								</div>
+							</a>
+						</div><!--end of jumbotron -->
 					</div>
-				</div>
-			</div>
+				</div><!--end of row-->
+			</div><!--end of container-->
 		</div>
 		<div class="footer">Made with love and a picture from <a href="https://www.flickr.com/photos/jainbasil/">Jean Basil Aliyas</div>
 	</body>
