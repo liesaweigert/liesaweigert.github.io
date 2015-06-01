@@ -16,11 +16,8 @@ html, body {
 #name {
   padding-left: 20px;
   font-family: "againts";
-  font-size: 250px;
+  font-size: 15vw;
   text-align: center; }
-  @media all and (max-with: 800px) {
-    #name {
-      font-size: 125px; } }
 
 #information {
   text-align: center; }
@@ -34,7 +31,7 @@ html, body {
 
 .category {
   font-family: "againts";
-  font-size: 200px;
+  font-size: 14vw;
   padding: 125px 0px;
   text-align: center;
   color: white; }
@@ -54,5 +51,16 @@ html, body {
 #projects {
   background-image: url("../images/projects.jpg");
   background-size: cover; }
+
+.container:last-of-type {
+  margin-bottom: 50px; }
+
+.footer {
+  background-color: #AAA;
+  text-align: center;
+  padding: 15px;
+  color: white; }
+  .footer * {
+    color: white; }
 
 /*# sourceMappingURL=main.css.map */
