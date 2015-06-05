@@ -21,30 +21,7 @@ var main = function() {
     });
 
     //sticky navbar
-    var isFixed = false;
-    var shouldBeFixed = false;
-    var navbar = $('.navbar');
-    var header = $('.header');
-    var navTop =  header.outerHeight() + 50;
-    $(window).scroll(function() {
-      var scrollTop = $(window).scrollTop();
-      if (navTop > scrollTop){
-        shouldBeFixed = false;
-      } else {
-        shouldBeFixed = true;
-      }
-      if (shouldBeFixed && !isFixed){
-        navbar.addClass('fixed');
-        var temp = navbar.outerHeight();
-        header.css('margin-bottom', temp.toString());
-        isFixed = true;
-      } else if (!shouldBeFixed && isFixed){
-        navbar.removeClass('fixed');
-        header.css('margin-bottom', '0');
-        isFixed = false;
-      }
-
-    });
+    $(".navbar").sticky({topSpacing:0});
 
 };
 

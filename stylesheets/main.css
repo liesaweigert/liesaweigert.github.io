@@ -20,7 +20,8 @@ html, body {
   text-align: center; }
 
 #information {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 50px; }
   #information a {
     color: #444; }
     #information a:hover {
