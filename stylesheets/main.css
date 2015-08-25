@@ -15,7 +15,6 @@ html, body {
 
 #name {
   padding-left: 20px;
-  font-family: "againts";
   font-size: 15vw;
   text-align: center; }
 
@@ -31,7 +30,6 @@ html, body {
       padding-left: 30px; }
 
 .category {
-  font-family: "againts";
   font-size: 14vw;
   padding: 125px 0px;
   text-align: center;
@@ -62,21 +60,10 @@ html, body {
 
 @media all and (min-width: 800px) {
 #name {
-  padding-left: 20px;
-  font-family: "againts";
-  font-size: 15vw;
-  text-align: center; }
+  font-family: "againts";}
 
-#information {
-  text-align: center;
-  margin-bottom: 50px; }
-  #information a {
-    color: #444; }
-    #information a:hover {
-      color: #AAA; }
-  #information p {
-    display: inline;
-    padding-left: 30px; }
+.category {
+  font-family: "againts"; }
 
 #education {
   background-image: url("../images/education.jpg");

@@ -3,10 +3,6 @@
   border-radius: 15px;
   background-color: white;
   min-height: 100px; }
-  .project .jumbotron b {
-    text-align: center; }
-    .project .jumbotron b:hover {
-      color: #444; }
   .project .jumbotron a:hover {
     text-decoration: none; }
   .project .jumbotron b, .project .jumbotron p {
