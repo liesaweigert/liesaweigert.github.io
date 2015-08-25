@@ -5,8 +5,6 @@
   min-height: 100px; }
   .project .jumbotron a:hover {
     text-decoration: none; }
-  .project .jumbotron b, .project .jumbotron p {
-    padding-left: 10px; }
   .project .jumbotron:hover {
     background-color: #DDD; }
 .project * {

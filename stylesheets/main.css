@@ -36,16 +36,16 @@ html, body {
   color: white; }
 
   #education {
-    background-color: #AAA; }
+    background-color: #006; }
 
   #employment {
-    background-color: #AAA; }
+    background-color: #006; }
 
   #skills {
-    background-color: #AAA; }
+    background-color: #006; }
 
   #projects {
-    background-color: #AAA; }
+    background-color: #006; }
 
   .container:last-of-type {
     margin-bottom: 50px; }
