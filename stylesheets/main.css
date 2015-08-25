@@ -32,6 +32,11 @@ html, body {
       display: inline;
       padding-left: 30px; }
 
+.descriptive {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
 .category {
   font-family: 'againts';
   font-size: 14vw;
