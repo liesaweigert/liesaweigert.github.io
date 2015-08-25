@@ -32,22 +32,13 @@ html, body {
       padding-left: 30px; }
 
 .category {
+  font-family: 'againts';
   font-size: 14vw;
   padding: 125px 0px;
   text-align: center;
-  color: white; }
-
-  #education {
-    background-color: #006; }
-
-  #employment {
-    background-color: #006; }
-
-  #skills {
-    background-color: #006; }
-
-  #projects {
-    background-color: #006; }
+  color: white;
+  background: transparent;
+}
 
   .container:last-of-type {
     margin-bottom: 50px; }
@@ -59,25 +50,3 @@ html, body {
     color: white; }
     .footer * {
       color: white; }
-
-@media all and (min-width: 800px) {
-
-.category {
-  font-family: "againts"; }
-
-#education {
-  background-image: url("../images/education.jpg");
-  background-size: cover; }
-
-#employment {
-  background-image: url("../images/employment.jpg");
-  background-size: cover; }
-
-#skills {
-  background-image: url("../images/skills.jpg");
-  background-size: cover; }
-
-#projects {
-  background-image: url("../images/projects.jpg");
-  background-size: cover; }
-}
