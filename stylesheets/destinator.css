@@ -1,0 +1,45 @@
+* {
+	text-align: center;
+}
+
+body {
+	background-image: url('../images/background.jpg');
+	background-repeat: repeat;
+}
+
+.name {
+	width: 100%;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: white;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+.inputbox {
+	margin-top: 20px;
+	width: 100%;
+}
+
+.buttons {
+	margin-top: 20px;
+}
+
+.button{
+	width: 100%;
+
+}
+
+.choices {
+	padding-top: 20px;
+	width: 100%;
+}
+
+.choice {
+	border: 1px solid #999;
+	background-color: #e8ecef;
+	width: 100%;
+	margin-top: 5px;
+	border-radius: 4px;
+
+}
