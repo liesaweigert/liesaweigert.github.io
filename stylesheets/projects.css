@@ -9,7 +9,10 @@
     background-color: #DDD; }
 .project * {
   color: black; }
-.project i {
-  text-align: center; }
+.project .logo {
+  height: 5em; }
+.project .icon {
+  text-align: center;
+}
 
 /*# sourceMappingURL=projects.css.map */
