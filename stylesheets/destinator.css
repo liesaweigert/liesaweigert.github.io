@@ -8,6 +8,7 @@ body {
 }
 
 .name {
+	margin-top: 40px;
 	width: 100%;
 	border: 2px solid black;
 	border-radius: 10px;
@@ -38,7 +39,8 @@ body {
 .choice {
 	border: 1px solid #999;
 	background-color: #e8ecef;
-	width: 100%;
+	width: 60%;
+	margin-right: 15%;
 	margin-top: 5px;
 	border-radius: 4px;
 
